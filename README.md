@@ -9,11 +9,14 @@ In Python, we use classes to create objects. The __init__ method is a special fu
 Increasing complexity:
 The __init__ method is also known as a constructor. It takes parameters that allow us to customize each object we create. For example:
 pythonCopyclass Robot:
+ class Robot:
+    ```python
     def __init__(self, name, color):
         self.name = name
         self.color = color
 
 my_robot = Robot("Buddy", "Blue")
+```
 Here, name and color are parameters we can set when creating a new Robot object. The self keyword refers to the object being created, and self.name = name assigns the given name to that specific robot.
 
 Even more detailed:
