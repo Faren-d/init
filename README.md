@@ -1,7 +1,7 @@
 # The __init__ Method
 Simple Explanation: 
 
-## Imagine you're building a robot. When you first create the robot, you need to give it some initial settings - like its name, color, or what it can do. In Python, when we create an object (which is like our robot), we use something called the __init__ method to give it these initial settings.
+## Imagine you're building a robot. When you first create the robot, you need to give it some initial settings - like its name, color, or what it can do. In Python, when we create an object (which is like our robot), we use something called the ```bash __init__ ```method to give it these initial settings.
 
 ## Adding a bit more detail:
 In Python, we use classes to create objects. The __init__ method is a special function inside a class that sets up the object when it's first created. It's like the setup instructions for our robot. When we make a new object, Python automatically calls this __init__ method to get everything ready.
