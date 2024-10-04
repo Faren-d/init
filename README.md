@@ -10,7 +10,7 @@ Increasing complexity:
 The __init__ method is also known as a constructor. It takes parameters that allow us to customize each object we create. For example:
 pythonCopyclass Robot:
  class Robot:
-    ```python
+    ```bash
     def __init__(self, name, color):
         self.name = name
         self.color = color
